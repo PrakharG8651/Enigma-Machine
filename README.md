@@ -1,6 +1,6 @@
 # Enigma Machine Decoder
 
-## Overview
+# Overview
 
 The Enigma Machine Decoder is a Java-based project inspired by the cryptographic device used during World War II. The Enigma machine was employed by the German military to encrypt and decrypt secret messages, contributing significantly to the complexity of wartime communication.
 
