@@ -23,7 +23,7 @@ Feel free to explore the codebase, experiment with different rotor settings, and
 
 ## Contribution
 
-Contributions are welcome! Whether it's fixing bugs, adding new features, or improving documentation, your input is valuable. Fork the repository, make your changes, and submit a pull request.
+Whether it's fixing bugs, adding new features, or improving documentation, your input is valuable. Fork the repository, make your changes, and submit a pull request.
 
 Enjoy decoding secret messages with the Enigma Machine Decoder!
 
