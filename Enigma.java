@@ -1,5 +1,5 @@
-import java.util.StringTokenizer;
 import java.io.*;
+import java.util.StringTokenizer;
 public class Enigma
 {
 	Rotor[] rotor=new Rotor[3];
@@ -25,8 +25,11 @@ public class Enigma
 	    {
 	    	reflector=new char[][]{{'A','F'},{'B','V'},{'C','P'},{'D','J'},{'E','I'},{'G','O'},{'H','Y'},{'K','R'},{'L','Z'},{'M','X'},{'N','W'},{'T','Q'},{'S','U'}};
 	    }
-	    else 
-	    	System.exit(0);
+	    else
+		{
+			System.out.println("Invalid Reflector Type. Setting to default B type reflector.");
+			reflector=new char[][]{{'A','Y'},{'B','R'},{'C','U'},{'D','H'},{'E','Q'},{'F','S'},{'G','L'},{'I','P'},{'J','X'},{'K','N'},{'M','O'},{'T','Z'},{'V','W'}};
+		}
 	}
 	char reflector(char c)
 	{
